@@ -1,0 +1,152 @@
+body{
+    background-color:gray;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color:dimgray;
+}
+#navbar a{
+    font-size: 2vw;
+    padding:1vw;
+    color:black;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+a{
+    text-decoration: none;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color:lightseagreen;
+}
+#welcome-section h1{
+    font-size: 6vw;
+}
+h1{
+    font-size: 4vw;
+}
+p{
+    font-size: 2.5vw;
+    color:darkslategray
+}
+#projects{
+    padding: 0px;
+    padding-bottom: 15vw;
+    flex-wrap: wrap;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darksalmon;
+    margin: 0px;
+}
+#projects h1{
+    font-size: 6vw;
+    padding: 3vw;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    color:#2f4f4f;
+}
+#projects a img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -0.7vw;
+}
+#projects div{
+    
+    padding: 3vw;
+    border-radius: 4vw;
+    width: 22vw;
+    height: 20vw;
+}
+#projects div a p{
+    margin-bottom: 2vw;
+    background-color: gray;
+    padding:0.5vw;
+    margin: 0px;
+    border-bottom-left-radius: 2vw;
+}
+#projects a{
+    margin: 0px;
+    padding: 0px;
+}
+#project-title{
+    margin: 0px;
+    padding: 0px;
+}
+#jsimg{
+   height: 100%;
+}
+.proj_name{
+    padding: 1vw;
+    background-color: gray;
+    margin: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2vw;
+    color: #2f4f4f;
+    font-size: 2.5vw;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contact{
+    margin: 0px;
+    padding:3vw;
+    background-color:mediumpurple;
+}
+#contact h1{
+    font-size: 6vw;
+    margin: 0px;
+    padding: 1vw;
+}
+#contact img{
+    padding-right: 2vw;
+    padding-top: 1vw;
+    width: 3vw;
+    height: 3vw;
+}
+#contact div p{
+    color: black;
+}
+
+hr{
+    margin: 0px;
+    margin: 3vw;
+    margin-bottom: 1vw;
+    stroke-width: 1vw;
+    border-color: black;
+    border-radius: 1vw;
+    color: black;
+}
+@media (max-width:720px) {
+    #navbar a{
+        font-size: 4vw;
+        padding: 2vw;
+    }
+
+    #projects div{
+        margin: 5vw;    
+        width: 60vw;
+        height:60vw;
+    }  
+    .proj_name{
+        font-size: 5vw;
+    }
+    #projects div a p{
+        font-size: 4vw;
+    }
+}
